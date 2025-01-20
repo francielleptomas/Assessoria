@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #ffe4e1; /* Tom rosa claro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff71bb; /* Tom rosa mais escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sobre img {
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre h2{
+    position: relative;
+    left: 20px;
+    color: rgb(151, 60, 60);
+}
+
+.sobre p{
+    font-size: larger;
+    color: #67181d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 20px;
+}
+
+section {
+    padding: 70px;
+    margin: 70px;
+    background-color: #fff0f5; /* Tom rosa muito claro */
+    border-radius: 8px;
+}
+
+.servico {
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+    color: rgb(151, 60, 60);
+}
+
+.servico img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.servicos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.servicos {
+    margin-top: 20px;
+    position: relative;
+    left: 20px;
+    color: rgb(151, 60, 60);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #A10F18; /* Tom rosa mais escuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #A10F18; /* Tom rosa ainda mais escuro */
+}
+
+footer {
+    background-color: #A10F18; /* Tom rosa mais escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
