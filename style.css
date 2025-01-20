@@ -94,6 +94,7 @@ section {
 form label {
     display: block;
     margin-top: 10px;
+    width: 200px;
 }
 
 form input, form textarea {
